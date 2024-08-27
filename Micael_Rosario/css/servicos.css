@@ -21,7 +21,7 @@ body {
 .header {
     padding: 60px 30px;
     text-align: center;
-    background-image: url('/imagens/image2.jpg');
+    background-image: url('/Micael_Rosario/imagens/image2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,19 +68,19 @@ nav ul li a.active {
 
 /* =============  Seção de Introdução ==============*/
 .intro {
-    background: rgb(153, 19, 119);
-    color: #000000;
-    padding: 100px 0;
+    background: rgb(168, 5, 127);
+    color: #ffffff;
+    padding: 80px 0;
     text-align: center;
 }
 
 .intro h1 {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -97,7 +97,7 @@ nav ul li a.active {
 }
 
 .service-item img {
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -118,13 +118,13 @@ nav ul li a.active {
 
 /* =================  Seção de Clientes  ================*/
 .clientes {
-    padding: 30px 0;
+    padding: 20px 0;
     background-color: #f1f1f1;
 }
 
 .clientes h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     color: #ad9105;
     margin-bottom: 40px;
 }
@@ -138,7 +138,7 @@ nav ul li a.active {
 .cliente-item p {
     font-style: italic;
     color: #777;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .cliente-item h3 {
@@ -175,7 +175,8 @@ nav ul li a.active {
 }
 
 .cta .btn:hover {
-    background-color: #ddd;
+    background-color: #e74c3c;
+    color: #fff;
 }
 
 /* ============= FOOTER =================*/
