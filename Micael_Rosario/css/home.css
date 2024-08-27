@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+/* =============== Header ====================*/
+.header {
+  padding: 60px 30px;
+  text-align: center;
+  background-image: url('/imagens/image2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(67, 66, 66, 0.5);
+  margin-bottom: 10px;
+}
+
+.header h1, h2, h3{
+  color: rgb(208, 170, 4);
+}
+
+.footer h1{
+  color: rgb(208, 170, 4);
+}
+
+.header p {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+/* =============== BARRA DE NAVEGAÇÃO ====================*/
+.topnav {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(208, 170, 4);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: rgb(208, 170, 4);
+  color: #fff;
+}
+
+.topnav .contato {
+  float: right;
+}
+
+/* =============== Layout DO CONTAINER ============  */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+.leftcolumn {
+  width: 70%;
+  justify-content: space-between;
+}
+
+.rightcolumn {
+  width: 30%;
+  background-color: transparent;
+  padding-left: 20px;
+}
+
+/* ================= EFEITO CARD ================ */
+.card {
+  background: #1f1f1f;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me,.popular-posts,.follow-me{
+  background-color: #5f513c;
+}
+
+.card h2, .card h3, .card h5 {
+  margin-bottom: 20px;
+}
+
+.card h5{
+  color: #9c8565;
+}
+
+.card p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.card .fakeimg img{
+  width: 50%;
+}
+
+/* =============== Sobre Mim =============== */
+.about-me {
+  width: 100%; 
+  overflow: hidden;
+}
+
+.about-me .imgAbout {
+  width: 100%;
+  height: auto; 
+  margin-bottom: 0px; 
+}
+
+.about-me .imgAbout img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* =============== POSTS POPULARES =============== */
+.popular-posts .fakeimg {
+  height: 100px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fakeimg{
+  width: 90%;
+}
+
+/* =============== REDES SOCIAIS  =============== */
+.follow-me ul {
+  list-style-type: none;
+}
+
+.follow-me ul li {
+  margin: 0 10px;
+}
+
+.follow-me ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.follow-me ul li a:hover {
+  color: rgb(208, 170, 4);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+/* ==============   Footer  ===================*/
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #1f1f1f;
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* ============== Responsive Layout ===============*/
+@media screen and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .leftcolumn {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

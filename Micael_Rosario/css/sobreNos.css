@@ -1,0 +1,121 @@
+/*       ==========================          QUEM SOMOS               ==========================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* =============== Header ====================*/
+header {
+    padding: 60px 30px;
+    text-align: center;
+    background-image: url('/imagens/image2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border: 2px solid black;
+}
+
+header h1 {
+    font-size: 60px;
+    color: rgb(208, 170, 4);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+
+/* =============== MAIN ============  */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 30px;
+    color: rgb(208, 170, 4);
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 300px; 
+}
+
+/* ============== FOOTER =================*/
+.footer {
+    background: #333;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    max-width: 100%;
+    margin-bottom: 40px;
+    color: #ad9105;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.footer-links ul li {
+    margin: 0;
+}
+
+.footer-links ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.footer-links ul li a:hover {
+    color: #ad9105;
+    
+}
+

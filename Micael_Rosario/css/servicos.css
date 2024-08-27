@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===================== Header ==================== */
+.header {
+    padding: 60px 30px;
+    text-align: center;
+    background-image: url('/imagens/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(208, 170, 4);
+    margin-bottom: 30px; 
+    border: 2px solid black;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-shadow: 1px 1px 2px rgba(30, 30, 30, 0.5);
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #e74c3c;
+}
+
+/* =============  Seção de Introdução ==============*/
+.intro {
+    background: rgb(153, 19, 119);
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção de Serviços */
+.services {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-item h2 {
+    font-size: 28px;
+    color: #ad9105;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* =================  Seção de Clientes  ================*/
+.clientes {
+    padding: 30px 0;
+    background-color: #f1f1f1;
+}
+
+.clientes h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #ad9105;
+    margin-bottom: 40px;
+}
+
+.cliente-item {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.cliente-item p {
+    font-style: italic;
+    color: #777;
+    font-size: 18px;
+}
+
+.cliente-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.cta {
+    padding: 50px 0;
+    background-color: rgb(208, 170, 4);
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #e74c3c;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #ddd;
+}
+
+/* ============= FOOTER =================*/
+.footer {
+    background: #333;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    max-width: 100%;
+    margin-bottom: 40px;
+    color: #ad9105;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.footer-links ul li {
+    margin: 0;
+}
+
+.footer-links ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.footer-links ul li a:hover {
+    color: #ad9105;
+    
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cta h2, .cta p {
+        font-size: 28px;
+    }
+
+    .footer-about, .footer-links, .footer-social {
+        flex: 100%;
+        text-align: center;
+    }
+}
