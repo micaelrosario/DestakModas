@@ -1,5 +1,9 @@
 /*       ==========================          QUEM SOMOS               ==========================*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +12,8 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
 }
 
 /* =============== Header ====================*/
@@ -29,6 +34,40 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
+
+.header p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+/* =============== BARRA DE NAVEGAÇÃO ====================*/
+.topnav {
+    overflow: hidden;
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(208, 170, 4);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(208, 170, 4);
+    color: #fff;
+  }
+  
+  .topnav .contato {
+    float: right;
+  }
 
 
 /* =============== MAIN ============  */

@@ -9,10 +9,9 @@
 
 body {
   font-family: 'Raleway', 'Open Sans',sans-serif;
-  background: linear-gradient(to bottom, #417078, rgb(22, 41, 40));
+  background: linear-gradient(to bottom, #8f4d9d, rgb(0, 0, 0));
   color: #ffffff;
   line-height: 1.6;
-  padding: 10px;
 }
 
 /* =============== Header ====================*/
@@ -27,7 +26,7 @@ body {
 
 .header h1 {
   font-size: 60px;
-  text-shadow: 2px 2px 4px rgba(67, 66, 66, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
 
@@ -60,6 +59,7 @@ body {
   padding: 14px 20px;
   text-decoration: none;
   font-size: 18px;
+  font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .about-me,.popular-posts,.follow-me{
-  background-color: rgba(95, 81, 60, 0.9);
+  background-color: rgba(95, 84, 3, 0.9);
 }
 
 .card h2, .card h3, .card h5 {

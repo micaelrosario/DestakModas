@@ -12,7 +12,6 @@ body {
   background: #f1f1f1;
   color: #ffffff;
   line-height: 1.6;
-  padding: 10px;
 }
 
 /* ============ Header ============*/
@@ -24,7 +23,6 @@ body {
   background-size: cover;
   background-position: center;
   color: rgb(208, 170, 4);
-  margin-bottom: 30px; 
   border: 2px solid black;
 }
 
@@ -40,6 +38,35 @@ body {
   margin-top: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ffffff;
+}
+
+/* =============== BARRA DE NAVEGAÇÃO ====================*/
+.topnav {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(208, 170, 4);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: rgb(208, 170, 4);
+  color: #fff;
+}
+
+.topnav .contato {
+  float: right;
 }
 
 .container {
